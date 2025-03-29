@@ -1,0 +1,13 @@
+{
+  "MLModelVersionStringKey" : "--",
+  "MLModelDescriptionKey" : "ASL Model 3.0",
+  "MLModelCreatorDefinedKey" : {
+    "com.apple.createml.version" : "15.3.2",
+    "com.apple.createml.app.tag" : "150.3",
+    "com.apple.coreml.model.preview.type" : "objectDetector",
+    "iterations" : "2000",
+    "com.apple.createml.app.version" : "6.1"
+  },
+  "MLModelAuthorKey" : "Maham Imran",
+  "MLModelLicenseKey" : "--"
+}
