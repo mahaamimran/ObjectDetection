@@ -47,6 +47,7 @@ struct LaunchView: View {
         }
         .fullScreenCover(isPresented: $showCamera) {
             CameraView()
+                .edgesIgnoringSafeArea(.all)
         }
     }
 }

@@ -9,11 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        CameraView()
+        LaunchView()
             .edgesIgnoringSafeArea(.all)
     }
 }
 
 #Preview {
-    ContentView()
+    LaunchView()
 }
