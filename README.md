@@ -1,4 +1,4 @@
-## 📱 iOS ObjectDetection 
+# 📱 iOS ObjectDetection 
 
 A real-time object detection iOS app built using **Swift**, **Core ML**, and **Create ML**. This app uses a YOLOv2-based model to recognize American Sign Language (ASL) gestures directly from the device's camera — no internet required!
 
