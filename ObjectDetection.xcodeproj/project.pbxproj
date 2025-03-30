@@ -269,6 +269,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ObjectDetection/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Detect ASL";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera for real-time object detection.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -300,6 +301,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ObjectDetection/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Detect ASL";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera for real-time object detection.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

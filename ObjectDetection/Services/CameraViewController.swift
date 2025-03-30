@@ -30,7 +30,8 @@ class CameraViewController: UIViewController {
     }
 
     private func setupLabel() {
-        predictionLabel = UILabel(frame: CGRect(x: 10, y: 80, width: view.frame.width - 20, height: 100))
+        predictionLabel = UILabel()
+        predictionLabel.translatesAutoresizingMaskIntoConstraints = false
         predictionLabel.textColor = .white
         predictionLabel.font = UIFont.boldSystemFont(ofSize: 18)
         predictionLabel.numberOfLines = 0
@@ -38,8 +39,17 @@ class CameraViewController: UIViewController {
         predictionLabel.backgroundColor = UIColor.black.withAlphaComponent(0.6)
         predictionLabel.layer.cornerRadius = 10
         predictionLabel.clipsToBounds = true
+
         view.addSubview(predictionLabel)
+
+        NSLayoutConstraint.activate([
+            predictionLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10),
+            predictionLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
+            predictionLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
+            predictionLabel.heightAnchor.constraint(greaterThanOrEqualToConstant: 50)
+        ])
     }
+
 }
 
 extension CameraViewController: AVCaptureVideoDataOutputSampleBufferDelegate {

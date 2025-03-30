@@ -38,7 +38,11 @@ struct CameraSetup {
             controller.view.layer.insertSublayer(layer, at: 0)
         }
 
-        print("🎥 Camera session starting...")
-        session.startRunning()
+        // background thread to avoid UI blocking
+        DispatchQueue.global(qos: .userInitiated).async {
+            print("🎥 Camera session starting...")
+            session.startRunning()
+        }
     }
+
 }

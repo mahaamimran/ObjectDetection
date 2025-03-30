@@ -14,6 +14,7 @@ enum Constants {
     enum Colors {
         static let primary = Color("PrimaryColor")
         static let systemBackground = Color(.systemBackground)
+        static let textColor = Color("TextColor")
     }
 
     enum Fonts {
